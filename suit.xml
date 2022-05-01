@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite de Prueba" configfailurepolicy="continue">
+	<test name="Pruebas Amazon Login">
+	
+		<parameter name="navegador" value="Chrome"></parameter>
+		<parameter name="url" value="https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_signin&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.assoc_handle=usflex&amp;openid.mode=checkid_setup&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;"></parameter>
+		<parameter name="urlPrincipal" value="https://www.amazon.com"></parameter>
+		<parameter name="folderEvidencia" value="./evidencia"></parameter>
+ 		<parameter name="usuarioInvalido" value="jeanca"></parameter>
+				
+		<classes>
+			<class name="CasosDePrueba.CasosAmazonLogin">
+				<methods>
+					<include name="testCase002ValidarLoginNoExitoso"></include>
+				</methods>
+			</class>
+		</classes>
+	
+	</test>
+ 	<test name="Pruebas Página Principal">
+
+		<parameter name="navegador" value="Chrome"></parameter>
+		<parameter name="urlPrincipal" value="https://www.amazon.com"></parameter>
+		<parameter name="folderEvidencia" value="./evidencia"></parameter>
+
+		<classes>
+			<class name="CasosDePrueba.CasosAmazonPrincipal">
+				<methods>
+					<include name="testCase005ValidarCambioIdioma"></include>
+				</methods>
+			</class>
+		</classes>
+	
+	</test> 
+</suite>
