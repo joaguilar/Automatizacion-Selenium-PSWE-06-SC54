@@ -1,3 +1,4 @@
+
 # Ejemplo Automatización de Pruebas Funcionales
 
 * Curso: PSWE-06 Calidad y Pruebas de Software SC54
@@ -57,10 +58,10 @@ Los siguientes dos casos de prueba fueron automatizados:
 
 | Step # | Step Details                   | Expected Results                          | Actual Results | Pass/Fail/Not Executed/Suspended |
 |--------|--------------------------------|-------------------------------------------|----------------|----------------------------------|
-| 1      | Abrir la Url de Amazon         | El sistema debe de ser cargado            |                |                                  |
-| 2      | Click en el boton Identificate | El sistema muestra el formulario de login | Formulario Mostrado               |   <img src="evidencia_1651443527288/ingresarUsuario_1651443527288.jpg" alt="Eclipse Ejecucion Suite TestNG" width="200"/>                               |
-| 3      | Ingresar Usuario  | Las credenciales son ingresadas          | Credenciales ingresadas               | <img src="evidencia_1651443527288/ingresarUsuario_1651443527288.jpg" alt="Eclipse Ejecucion Suite TestNG" width="200"/>|
-| 4      | Click en boton de ingresar     | Login realizado sin exito                 | Mensaje de error mostrado |<img src="evidencia_1651443527288/Mensaje_login_fallido_1651443527288.jpg" alt="Eclipse Ejecucion Suite TestNG" width="200"/>                                  |
+| 1      | Abrir la Url de Amazon         | El sistema debe de ser cargado            |                |   Pass                               |
+| 2      | Click en el boton Identificate | El sistema muestra el formulario de login | <img src="evidencia_1651443527288/ingresarUsuario_1651443527288.jpg" alt="Eclipse Ejecucion Suite TestNG" width="200"/>               |  Pass                                |
+| 3      | Ingresar Usuario  | Las credenciales son ingresadas          | <img src="evidencia_1651443527288/ingresarUsuario_1651443527288.jpg" alt="Eclipse Ejecucion Suite TestNG" width="200"/>               |Pass |
+| 4      | Click en boton de ingresar     | Login realizado sin exito                 | <img src="evidencia_1651443527288/Mensaje_login_fallido_1651443527288.jpg" alt="Eclipse Ejecucion Suite TestNG" width="200"/> |  Pass                                |
 
 ### Test Case 005
 
@@ -72,11 +73,11 @@ Los siguientes dos casos de prueba fueron automatizados:
 
 | Step # | Step Details                   | Expected Results                          | Actual Results | Pass/Fail/Not Executed/Suspended |
 |--------|--------------------------------|-------------------------------------------|----------------|----------------------------------|
-| 1      | Abrir la Url de Amazon         | El sistema debe de ser cargado            | <img src="evidencia_1651443542925/abrirUrlPrincipal_1651443542925.jpg" alt="Eclipse Ejecucion Suite TestNG" width="200"/>               |                                  |
-| 2      | Click en el boton de la bandera | El sistema muestra el formulario de cambiar idioma |Formulario mostrado               |                                  |
-| 3      | Seleccionar Español  | El sistema selecciona el idioma español          |  Idioma Seleccionado              |                                  |
-| 4      | Click en boton de "Guardar Cambios"     | El sistema guarda los cambios y retorna a la página principal |  REgresa a la pagina principal             |                                  |
-| 5      | Revisar el idioma sea español  | Se revisa una palabra en español del sitio          |  <img src="evidencia_1651443542925/paginaEspanol_1651443542925.jpg" alt="Eclipse Ejecucion Suite TestNG" width="200"/>               |                                  |
+| 1      | Abrir la Url de Amazon         | El sistema debe de ser cargado            | <img src="evidencia_1651443542925/abrirUrlPrincipal_1651443542925.jpg" alt="Eclipse Ejecucion Suite TestNG" width="200"/>               | Pass                                 |
+| 2      | Click en el boton de la bandera | El sistema muestra el formulario de cambiar idioma |Formulario mostrado               | Pass                                 |
+| 3      | Seleccionar Español  | El sistema selecciona el idioma español          |  Idioma Seleccionado              |                             Pass     |
+| 4      | Click en boton de "Guardar Cambios"     | El sistema guarda los cambios y retorna a la página principal |  Regresa a la pagina principal             |       Pass                           |
+| 5      | Revisar el idioma sea español  | Se revisa una palabra en español del sitio          |  <img src="evidencia_1651443542925/paginaEspanol_1651443542925.jpg" alt="Eclipse Ejecucion Suite TestNG" width="200"/>               | Pass                                 |
 
 
 ## Resultado de la ejecución
